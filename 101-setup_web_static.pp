@@ -34,6 +34,7 @@ file { '/data/web_static':
   ensure => 'directory'
 } ->
 
+
 file { '/data/web_static/releases':
   ensure => 'directory'
 } ->
